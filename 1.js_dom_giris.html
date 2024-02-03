@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML DOM</title>
-    <script src="1.js_dom_giris.js"></script>
 </head>
 <body>
-    
+    <h1 style="color:green">Bu bir Başlıktır.</h1>
+    <h1>Başlık 2</h1>
+
+    <p>Önemli document özellikleri:</p>
+    <ul class="myUl">
+      <li id="li_1">document.URL    -- Bir web sayfasının gerçek URL'sini gösterir</li>
+      <li>document.body   -- Body elementi içerisinde yer alan her şey</li>
+      <li>document.head   -- Head elementi içerisine yer alan her şey</li>
+      <li>document.links  -- Web sayfasında yer alan tüm linkler(a etiketi)</li>
+    </ul>
+
+    <p>HTML elementlerini değiştirmek için kullanılan metotlar</p>
+    <ul class="myUl">
+        <li>document.getElementById() -- id verilen bir elemanın özelliklerine ulaşmak için kullanılır.</li>
+        <li>document.getElementsByClassName() -- class verilen her elemanın özelliklerine ulaşmak için kullanılır.</li>
+        <li>document.getElementsByTagName() -- Etiket elemanlarına ulaşmak için kullanılır.</li>
+        <li>document.querySelector() -- css seçici ile eşleşen ilk kaydı getirir.</li>
+        <li>document.querySelectorAll() -- css seçici ile eşleşen tüm kayıtları dizi olarak getir.</li>
+    </ul>
+
+    <div>
+        <p><a href="">Link 1</a></p>
+        <p><a href="">Link 2</a></p>
+        <p><a href="">Link 3</a></p>
+    </div>
+
+    <script src="1.js_dom_giris.js"></script>
 </body>
 </html>
